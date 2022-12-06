@@ -1,6 +1,7 @@
 package com.bjqg.web.config;
 
 import com.bjqg.web.utils.ServletUtils;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author: lbj
  * @date: 2022/12/6 10:35
  */
+@Component
 public class ServerConfig {
 
     /**
