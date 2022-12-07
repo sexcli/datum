@@ -1,1 +1,72 @@
+server:
+  port: 8080
+spring:
+  datasource: #数据源配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.200.230.80:3306/ruoyi-vue?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: 12345678
+    druid:
+      max-active: 10
+      min-idle: 5
+      max-wait: 5000
+      initial-size: 5
+      validation-query: select 1
+      stat-view-servlet:
+        enabled: true
+        #        login-username: admin
+        #        login-password: admin
+        #        allow:
+        #        deny:
+        url-pattern: "/druid/*"
+      web-stat-filter:
+        enabled: true
+        url-pattern: "/druid/**"
+        exclusions: '*.js,*.gif,*.jpg,*.jpeg,*.png,*.css,*.ico,*.jsp,/druid/*'
+        principal-session-name: ''
+        session-stat-enable: true
+        session-stat-max-count: 1000
+      thymeleaf:
+        cache: false
+      jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+  #redis
+  redis:
+    host: 101.200.230.80
+    password: 123456
+    port: 6379
+    jedis:
+      pool:
+        max-active: 20
+        max-idle: 8
+        min-idle: 0
+        max-wait: 2000
+#shiro配置
+shiro:
+  hash-algorithm-name: md5
+  hash-iterations: 2
+  login-url: /index.html
+  unauthorized-url: /unauthorized.html
+  anon-urls:
+    - /api/login/doLogin*
+    - /api/druid/**
+    - /api/swagger-ui.html
+    - /api/webjars/**
+    - /api/swagger-resources/**
+    - /api/v2/**
+    - /api/login/captcha
+    - /api/login/checkLogin
+  logout-url: /api/login/logout*
+  authc-urls:
+    - /**
+
+#mybatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.bjqg.**.domain
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath*:mapper/**/*Mapper.xml
+  # 加载全局的配置文件
+  configLocation: classpath:mybatis/mybatis-config.xml
 
