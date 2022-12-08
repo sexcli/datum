@@ -1,4 +1,4 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
 import org.springframework.aop.framework.AopContext;
 import org.springframework.beans.BeansException;

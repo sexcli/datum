@@ -1,10 +1,12 @@
-package com.bjqg.web.core;
+package com.bjqg.web.core.common;
 
-import com.bjqg.web.utils.StringUtils;
+import com.bjqg.web.core.common.Convert;
+import com.bjqg.web.utils.common.StringUtils;
 
 import java.util.Arrays;
 
 /**
+ * 字符串格式化
  * @author: lbj
  * @date: 2022/12/6 11:23
  */

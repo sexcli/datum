@@ -1,4 +1,4 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.file;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.bjqg.web.config.BjConfig;
+import com.bjqg.web.utils.common.DateUtils;
+import com.bjqg.web.utils.common.StringUtils;
+import com.bjqg.web.utils.uuid.IdUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.tomcat.util.http.fileupload.IOUtils;

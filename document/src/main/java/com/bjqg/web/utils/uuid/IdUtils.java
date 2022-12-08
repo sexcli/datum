@@ -1,4 +1,6 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.uuid;
+
+import com.bjqg.web.utils.uuid.UUID;
 
 /**
  * @author: lbj

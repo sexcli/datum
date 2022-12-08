@@ -1,9 +1,9 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import com.bjqg.web.utils.StringUtils;
+import com.bjqg.web.utils.common.StringUtils;
 
 /**
  * @author: lbj

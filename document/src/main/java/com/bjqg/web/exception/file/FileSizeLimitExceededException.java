@@ -1,4 +1,4 @@
-package com.bjqg.web.exception;
+package com.bjqg.web.exception.file;
 
 /**
  * @author: lbj

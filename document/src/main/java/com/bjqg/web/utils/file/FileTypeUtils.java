@@ -1,4 +1,4 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.file;
 
 import org.apache.commons.lang3.StringUtils;
 

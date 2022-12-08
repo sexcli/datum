@@ -1,4 +1,4 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
 import java.lang.management.ManagementFactory;
 import java.text.ParseException;

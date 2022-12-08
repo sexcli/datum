@@ -1,4 +1,4 @@
-package com.bjqg.web.exception;
+package com.bjqg.web.exception.upload;
 
 import org.apache.tomcat.util.http.fileupload.FileUploadException;
 

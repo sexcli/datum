@@ -1,4 +1,4 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.uuid;
 
 import com.sun.xml.internal.ws.util.UtilException;
 

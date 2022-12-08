@@ -1,11 +1,11 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
 
 import java.util.*;
 
-import com.bjqg.web.core.StrFormatter;
+import com.bjqg.web.core.common.StrFormatter;
 import org.springframework.util.AntPathMatcher;
-import com.bjqg.web.common.Constants;
+import com.bjqg.web.core.common.Constants;
 /**
  * 字符串工具类
  * @author: lbj

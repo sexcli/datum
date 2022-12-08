@@ -1,4 +1,4 @@
-package com.bjqg.web.exception;
+package com.bjqg.web.exception.file;
 
 import com.bjqg.web.exception.BaseException;
 

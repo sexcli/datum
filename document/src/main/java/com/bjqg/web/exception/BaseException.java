@@ -1,7 +1,7 @@
 package com.bjqg.web.exception;
 
-import com.bjqg.web.utils.MessageUtils;
-import com.bjqg.web.utils.StringUtils;
+import com.bjqg.web.utils.common.MessageUtils;
+import com.bjqg.web.utils.common.StringUtils;
 
 /**
  * @author: lbj

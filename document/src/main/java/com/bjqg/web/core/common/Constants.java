@@ -1,4 +1,4 @@
-package com.bjqg.web.common;
+package com.bjqg.web.core.common;
 
 /**
  * 通用常量处理

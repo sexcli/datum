@@ -1,7 +1,7 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
-import com.bjqg.web.common.Constants;
-import com.bjqg.web.core.Convert;
+import com.bjqg.web.core.common.Constants;
+import com.bjqg.web.core.common.Convert;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

@@ -1,5 +1,6 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.common;
 
+import com.bjqg.web.utils.common.SpringUtils;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 

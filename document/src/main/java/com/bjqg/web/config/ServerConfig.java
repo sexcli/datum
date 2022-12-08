@@ -1,6 +1,6 @@
 package com.bjqg.web.config;
 
-import com.bjqg.web.utils.ServletUtils;
+import com.bjqg.web.utils.common.ServletUtils;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;

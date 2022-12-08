@@ -1,4 +1,7 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.uuid;
+
+import com.bjqg.web.utils.common.DateUtils;
+import com.bjqg.web.utils.common.StringUtils;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

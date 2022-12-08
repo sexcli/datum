@@ -1,7 +1,7 @@
-package com.bjqg.web.core;
+package com.bjqg.web.core.common;
 
-import com.bjqg.web.utils.CharsetKit;
-import com.bjqg.web.utils.StringUtils;
+import com.bjqg.web.utils.common.CharsetKit;
+import com.bjqg.web.utils.common.StringUtils;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.math.BigDecimal;
@@ -12,6 +12,7 @@ import java.text.NumberFormat;
 import java.util.Set;
 
 /**
+ * 类型转换
  * @author: lbj
  * @date: 2022/12/6 10:55
  */

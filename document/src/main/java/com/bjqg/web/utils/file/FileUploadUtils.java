@@ -1,16 +1,19 @@
-package com.bjqg.web.utils;
+package com.bjqg.web.utils.file;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Objects;
 
-import com.bjqg.web.common.Constants;
+import com.bjqg.web.core.common.Constants;
 import com.bjqg.web.config.BjConfig;
-import com.bjqg.web.exception.InvalidExtensionException;
-import com.bjqg.web.exception.FileNameLengthLimitExceededException;
+import com.bjqg.web.exception.upload.InvalidExtensionException;
+import com.bjqg.web.exception.file.FileNameLengthLimitExceededException;
+import com.bjqg.web.utils.common.DateUtils;
+import com.bjqg.web.utils.common.StringUtils;
+import com.bjqg.web.utils.uuid.Seq;
 import org.apache.commons.io.FilenameUtils;
-import com.bjqg.web.exception.FileSizeLimitExceededException;
+import com.bjqg.web.exception.file.FileSizeLimitExceededException;
 import org.springframework.web.multipart.MultipartFile;
 /**
  * @author: lbj
@@ -157,7 +160,7 @@ public class FileUploadUtils {
         long size = file.getSize();
         if (size > DEFAULT_MAX_SIZE)
         {
-            throw new com.bjqg.web.exception.FileSizeLimitExceededException(DEFAULT_MAX_SIZE / 1024 / 1024);
+            throw new FileSizeLimitExceededException(DEFAULT_MAX_SIZE / 1024 / 1024);
         }
 
         String fileName = file.getOriginalFilename();
