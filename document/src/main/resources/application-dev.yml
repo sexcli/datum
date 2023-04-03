@@ -1,11 +1,11 @@
 server:
-  port: 8080
+  port: 8081
 spring:
   datasource: #数据源配置
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.200.230.80:3306/ruoyi-vue?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/ruoyi-vue?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
     username: root
-    password: 12345678
+    password: 123456
     druid:
       max-active: 10
       min-idle: 5
@@ -31,17 +31,17 @@ spring:
       jackson:
         date-format: yyyy-MM-dd HH:mm:ss
         time-zone: GMT+8
-  #redis
-  redis:
-    host: 101.200.230.80
-    password: 123456
-    port: 6379
-    jedis:
-      pool:
-        max-active: 20
-        max-idle: 8
-        min-idle: 0
-        max-wait: 2000
+#  #redis
+#  redis:
+#    host: 192.468.40.124
+#    password:
+#    port: 6379
+#    jedis:
+#      pool:
+#        max-active: 20
+#        max-idle: 8
+#        min-idle: 0
+#        max-wait: 2000
 #shiro配置
 shiro:
   hash-algorithm-name: md5

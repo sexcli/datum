@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ruoyi-admin">
+    <CLASSES>
+      <root url="jar://F:/favor/future_school/ruoyi-admin/target/ruoyi-admin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
