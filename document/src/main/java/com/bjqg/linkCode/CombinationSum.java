@@ -13,8 +13,8 @@ import java.util.List;
 public class CombinationSum {
 
     public static void main(String[] args) {
-        int target = 13;
-        int[] candidates = {2,4,6,7};
+        int target = 8;
+        int[] candidates = {10,1,2,7,6,1,5};
         List<List<Integer>> list = combinationSum(candidates, target);
         System.out.println(list);
     }

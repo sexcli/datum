@@ -8,7 +8,7 @@
         <version>2.7.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.bjqg</groupId>
+    <groupId>com.com.bjqg</groupId>
     <artifactId>document</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>document</name>
