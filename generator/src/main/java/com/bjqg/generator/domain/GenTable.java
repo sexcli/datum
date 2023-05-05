@@ -1,8 +1,8 @@
 package com.bjqg.generator.domain;
 
 
-import com.bjqg.common.BaseEntity;
 import com.bjqg.common.GenConstants;
+import com.bjqg.web.common.BaseEntity;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 

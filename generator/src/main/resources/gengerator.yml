@@ -1,0 +1,10 @@
+# 代码生成
+gen:
+  # 作者
+  author: lbj
+  # 默认生成包路径 system
+  packageName: com.bjqg.system
+  # 自动去除表前缀，默认是false
+  autoRemovePre: false
+  # 表前缀
+  tablePrefix: sys_
